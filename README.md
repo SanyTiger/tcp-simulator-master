@@ -1,7 +1,7 @@
 # tcp-simulator-master
-----------------------
 
-Objective
+# Objective
+
 Your source ports # and destination port # has become the corresponding agent IDs. (111, 001, 100). Watch out for the final length of the fields according to the packet specification given. 
 
   •	Sequence number is a random number that you generate for your communication. Once decided you will use this field to keep track of the message lengths sent for the variable part data based on the TCP principles. 
@@ -23,8 +23,8 @@ Your source ports # and destination port # has become the corresponding agent ID
   •	Reliability: one in 5 packets gets lost between everyone, so you may have to recover it by correctly identifying it using the ack and retransmitting it. This is one of your key challenges to ensure the agents gets all the messages in order. They can’t afford to miss any of the messages. You will have to run a timer at each agent side to estimate the loss of packet. You can set the timer to a value not less than 20 seconds. For this getting done you have field in the packet header called DRP which the router will check to decide whether to forward the packet or not. 
 
 
-What tasks to perform
----------------------
+# What tasks to perform
+
   • checksum should be calculated as per the Internet checksum and should be calculated on first 16 Bytes.
 
   • After the 5th message from agent Chan, agent Ann realizes something odd had happened and goes eerie about continuing communication with agent Chan.
@@ -38,8 +38,7 @@ What tasks to perform
   • Agent Jan establishes with the Air-force Headquarters and orders a air-strike. The mission goes well and now the target is destroyed. Now agent Jan has to terminate connection as per TCP norms and signal agent Ann about the success.
 
 
-How to run the code
---------------------
+# How to run the code
 
 1.	Open the folder containing the code in a Linux environment, if preferable.
 2.	Open terminal pointing to the said folder. 
