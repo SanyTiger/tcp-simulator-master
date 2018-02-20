@@ -1,8 +1,7 @@
 # tcp-simulator-master
-#----------------------
+----------------------
 
 Objective
----------
 Your source ports # and destination port # has become the corresponding agent IDs. (111, 001, 100). Watch out for the final length of the fields according to the packet specification given. 
 
   •	Sequence number is a random number that you generate for your communication. Once decided you will use this field to keep track of the message lengths sent for the variable part data based on the TCP principles. 
