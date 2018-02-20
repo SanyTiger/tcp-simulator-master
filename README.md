@@ -3,8 +3,11 @@
 Objective
 ---------
 Your source ports # and destination port # has become the corresponding agent IDs. (111, 001, 100). Watch out for the final length of the fields according to the packet specification given. 
+
 •	Sequence number is a random number that you generate for your communication. Once decided you will use this field to keep track of the message lengths sent for the variable part data based on the TCP principles. 
+
 •	A three-way handshake must be performed to establish the sequence number and acknowledgement number. 
+
 •	You should use your knowledge on DRP, TER, URG, ACK, RST, SYN, FIN to use it properly during the communication. Refer to textbook for details. 
 •	You can use the receiver window to rate limit the other user in communication 
 •	checksum should be calculated as per the Internet checksum and should be calculated on first 16 Bytes. 
