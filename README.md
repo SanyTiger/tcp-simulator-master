@@ -1,4 +1,5 @@
 # tcp-simulator-master
+[![HitCount](http://hits.dwyl.io/SanyTiger/tcp-simulator-master.svg)](http://hits.dwyl.io/SanyTiger/tcp-simulator-master)
 
 # Objective
 
